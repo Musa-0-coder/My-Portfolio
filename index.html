@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1e68052aa6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="heading"><span>M</span>usa's Portfolio.</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <i class="ri-close-large-fill fas" onclick="closemenu()"></i>
+          </ul>
+          <i class="ri-menu-line fas" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <div class="header-text1">
+          <p>Software Engineer</p>
+          <h1>Hi, I'm <span>Musa</span> Qureshi <br />from Bhopal</h1>
+        </div>
+          <div class="img"><img src="MyPic without bg.png" alt=""></div>
+        </div>
+
+      </div>
+      <!--                          About                                    -->
+      <div id="about">
+        <div class="container0">
+          <div class="row">
+            <div class="about-col1">
+              <img
+                src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=600"
+              />
+            </div>
+            <div class="about-col2">
+              <h1 class="sub-title">About Me</h1>
+              <br />
+              <p>
+                I am a passionate 2nd-year B.Tech student specializing in Computer Science and Engineering. My skills lie in web development, and I am continuously enhancing my expertise in creating user-friendly and dynamic web applications. Alongside my development journey, I am diligently working on mastering Data Structures and Algorithms (DSA) to build a strong foundation in problem-solving and computational thinking.&nbsp;
+                <br>
+                I am actively seeking opportunities to apply my skills, contribute to impactful projects, and learn from industry professionals. As a dedicated and enthusiastic learner, I am committed to building a comprehensive portfolio that reflects my technical abilities and creative solutions.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-links" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li>
+                    <span>Web Development</span><br />Front-end - HTML, CSS, JS, React.js, Talwind<br />Back-end - Node.js, Express.js, MongoDB
+                  </li>
+                  <!-- <li><span>Front-end</span><br />HTML,CSS,JS, React.js</li>
+                  <li><span>Backend & Database</span><br />Node.js, MySQL</li> -->
+                  <li>
+                    <span>Programming Languages</span><br />C, C++, Python
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>Fresher</span><br />B.tech 2<sup>nd</sup> Year
+                    Student!
+                  </li>
+                  <li>
+                    <span>2 months training</span><br />ACMEGRADE (Python In
+                    Machine Learning)
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>2023-Present</span><br />B.tech(CSE) from Bansal Group
+                    of Institution
+                  </li>
+                  <li>
+                    <span>Complete in 2023</span><br />12<sup>th</sup> From
+                    Govt. Hamidia Boys H. S. School
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Services -->
+      <div id="services">
+        <div class="containerS">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="ri-code-s-slash-line"></i>
+              <h2>Programming Languages</h2>
+              <p>
+                Front-End Development Services
+As a B.Tech Computer Science (2nd year) student with expertise in front-end development, I create responsive, dynamic, and visually engaging web interfaces. My focus is on building seamless user experiences using modern web technologies. <br> 
+
+<span style="text-decoration: underline;">Services I Offer -</span> <br>
+<span style="color:cadetblue;">C++ Development</span> – Data structures & algorithms, competitive programming, system-level programming. <br>
+<span style="color:cadetblue;">Python Solutions</span> – Automation, data handling, scripting, and machine learning basics. <br>
+<span style="color:cadetblue;">Project Assistance</span> – Guidance and development support for academic or personal projects. <br>&nbsp;Let's collaborate and build something great.
+              </p>
+              <a href="#Contact">Learn More</a>
+            </div>
+            <div>
+              <i class="ri-crop-line"></i>
+              <h2>Front-end Design</h2>
+              <p>
+                Programming Services
+As a B.Tech Computer Science (2nd year) student with expertise in C++ and Python, I offer professional programming services tailored to your needs. Whether you're looking for efficient algorithm development, problem-solving, automation scripts, or software solutions, I can help bring your ideas to life. <br>
+<span style="text-decoration: underline;">Services I Offer -</span> <br>
+<span style="color:cadetblue;">Website Development</span> – Interactive and responsive web pages using HTML, CSS, and JavaScript. <br>
+<span style="color:cadetblue;">Framework Expertise</span> –  Development with React and Tailwind CSS for modern web applications. <br>
+<span style="color:cadetblue;">Animations & Effects</span> –  Smooth and engaging animations using GSAP, ScrollTrigger, and Locomotive. <br>
+<span style="color:cadetblue;">UI/UX Enhancements</span> –  Optimized layouts and user-friendly designs for better engagement.<br> &nbsp;&nbsp;&nbsp;&nbsp;
+Let's work together to build intuitive and high-performance web solutions.
+              </p>
+              <a href="#Contact">Learn More</a>
+            </div>
+            <div>
+              <i class="ri-database-2-fill"></i>
+              <h2>Backend & Database</h2>
+              <p>
+                Backend & Database Services
+I develop backend solutions using Node.js, Express, and MongoDB, enabling seamless API integration and efficient data management. <br>
+
+<span style="text-decoration: underline;">Services I Offer -</span> <br> 
+RESTful API Development with Node.js and Express. <br>
+Database Management using MongoDB. <br> 
+Full-Stack Integration for dynamic web applications. <br>
+Let's build efficient and scalable solutions.
+              </p>
+              <a href="#Contact">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--                Projects                  -->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-tilte">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img
+                src="WhatsApp Image 2025-02-11 at 16.48.49_87329975.jpg"
+                alt=""
+              />
+              <div class="layer">
+                <h3>Animated Website</h3>
+                <p>
+                  Rejouice.comClone , Welcome to my Portfolio This project is a comprehensive clone of the Rejouice website, designed to reflect my growing web development skills. As a fresher in the industry, I embarked on this project to demonstrate my ability to replicate professional websites and refine my understanding of core web technologies.
+                </p>
+                <a href="https://github.com/Musa-0-coder/Animated-Website.git" target="_blank"><i class="ri-external-link-fill"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img
+                src="WhatsApp Image 2025-02-11 at 17.50.03_9cf4584f.jpg"
+                alt=""
+              />
+              <div class="layer">
+                <h3>(EMS) Employee Management System</h3>
+                <p>
+                  in more concise
+Certainly! Here is a more concise version of your project description:
+
+The Employee Management System (EMS) is a desktop-focused web application designed to streamline employee task management within an organization. Built with React.jsand Tailwind CSS, EMS offers an intuitive interface for administrators to efficiently create and assign tasks, track progress, and manage employee data. This project showcases my skills in frontend development, component-based architecture, and user-friendly interface design.
+
+                </p>
+                <a href="#"><i class="ri-external-link-fill"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1683120972279-87efe2ba252f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRlY2h8ZW58MHx8MHx8fDA%3D"
+                alt=""
+              />
+              <div class="layer">
+                <h3>Full-Stack Web Application (In Progress)</h3>
+                <p>
+                  
+I am currently developing a full-stack web application using React.js, Node.js, Express, and MongoDB. This project aims to [briefly describe its purpose, e.g., "streamline employee management" or "enhance user productivity"]. The frontend is built with React and advanced libraries like GSAP, ScrollTrigger, and Locomotive, while the backend is powered by Node.js and Express with a MongoDB database.
+
+This project is still in development, and I am actively working on implementing new features, optimizing performance, and refining the user experience. Stay tuned for updates!
+
+Would you like me to refine this further based on your project's specific details? 
+                </p>
+                <a href="#"><i class="ri-external-link-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More!</a>
+      </div>
+      <!-- ---------------Contact---------------- -->
+       <div id="Contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="ri-send-plane-fill"></i> musaqureshi0000@gmail.com</p>
+              <p><i class="ri-phone-fill"></i> 6263473208</p>
+              <div class="social-icon">
+                <a
+                  href="https://www.linkedin.com/in/musaqureshi/"
+                  target="_blank"
+                  ><i class="ri-linkedin-box-fill"></i
+                ></a>
+                <a href="https://github.com/Musa-0-coder/" target="_blank"
+                  ><i class="ri-github-fill"></i
+                ></a>
+                <a href="" target="_blank"
+                  ><i class="ri-twitter-x-line"></i
+                ></a>
+                <a href="" target="_blank"
+                  ><i class="ri-instagram-line"></i
+                ></a>
+              </div>
+              <a href="My Current Resume (3).pdf" download class="btn btn2" target="_blank">Download Resume</a>
+              </div>
+              <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input
+                    type="text"
+                    name="Name"
+                    placeholder="Your Name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="Your Email"
+                    required
+                  />
+                  <input
+                    type="number"
+                    name="Number"
+                    placeholder="Phone number"
+                    required
+                  />
+                  <textarea
+                    name="Message"
+                    rows="7"
+                    placeholder="Your Message"
+                  ></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+              </div>
+        </div>
+       </div>
+       <div class="copyright">
+        <p>copyright ©️ Musa Qureshi. <t></t>Made with <i class="ri-heart-fill"></i> My own.</p>
+       </div>
+    </div>
+
+    <script>
+      let tabLinks = document.getElementsByClassName("tab-links");
+      let tabContents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tabLink of tabLinks) {
+          tabLink.classList.remove("active-links");
+        }
+        for (tabContent of tabContents) {
+          tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      let sidemen = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemen.style.right = "0";
+      }
+      function closemenu(){
+        sidemen.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwyziVUFgALO3K84xffRuhpN9noMj1rtdJVxBUPiJVsUVZEg7UsqMNEEPI1RqgfZ-pwOg/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message Sent Successfolly"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset();
+          })
+          .catch(error => console.error('Error!', error.message))
+      });
+    </script>
+
+  </body>
+</html>
