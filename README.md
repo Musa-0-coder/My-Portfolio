@@ -1,10 +1,9 @@
-# My-Portfolio
 # My Personal Portfolio
 
 Welcome to my personal portfolio repository! This project showcases my skills, projects, and experience as a front-end developer.
 
 ## 🖥️ Live Demo
-[Live Portfolio](#) *(Replace with actual link once deployed)*
+https://musa-0-coder.github.io/My-Portfolio/
 
 ## 📌 Features
 - 🔥 **Modern UI/UX** – Built with advanced front-end technologies
