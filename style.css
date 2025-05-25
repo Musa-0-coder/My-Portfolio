@@ -394,6 +394,12 @@ form .btn2 {
 /* --------------Responsive---------------- */
 /* ...existing code... */
 
+nav .fas {
+    display: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
 @media only screen and (max-width: 600px) {
     .header-text {
         margin-top: 40px;
